@@ -7,3 +7,9 @@ buttonText.addEventListener("click", (evt) => {
 });
 
 // Escribe el código a continuación
+
+  if(localStorage.getItem('text')){
+   alert(localStorage.getItem('text'))
+  }
+else alert('Por favor ingresa un texto');
+
